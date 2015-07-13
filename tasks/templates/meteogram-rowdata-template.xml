@@ -1,0 +1,11 @@
+        <time from="2015-07-09T16:00:00" to="2015-07-09T17:00:00">
+            <!-- Valid from 2015-07-09T16:00:00 to 2015-07-09T17:00:00 -->
+            <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+            <precipitation value="[--precipitation--]" />
+            <!-- Valid at 2015-07-09T16:00:00 -->
+            <windDirection deg="[--deg--]" code="[--code--]" name="[--name--]" />
+            <windSpeed mps="[--windSpeed--]" name="Gentle breeze" />
+            <temperature unit="celsius" value="[--temperature--]" />
+            <pressure unit="hPa" value="[--pressure--]" />
+        </time>
+        

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weatherdata>
+    <location>
+        <name>Scampton</name>
+        <type>Capital</type>
+        <country>United Kingdom</country>
+        <timezone id="Europe/London" utcoffsetMinutes="[--UTCOFFSET--]" />
+        <location altitude="[--ALTITUDE--]" latitude="[--LAT--]" longitude="[--LONG--]" geobase="geonames" geobaseid="2643743" />
+    </location>
+    <credit>
+        <link text="Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/United_Kingdom/England/London/" />
+    </credit>
+    <links>
+    </links>
+    <meta>
+        <lastupdate>2015-07-07T04:35:00</lastupdate>
+        <nextupdate>2015-07-07T17:00:00</nextupdate>
+    </meta>[
+    <sun rise="[--sunrise--]" set="[--sunset--]" />
+    <forecast>
+        <tabular>
+            [--tabularContent--]
+        </tabular>
+    </forecast>
+</weatherdata>

@@ -1,0 +1,3 @@
+Options +Includes
+RemoveHandler .html .htm
+AddType application/x-httpd-php5 .php .htm .html

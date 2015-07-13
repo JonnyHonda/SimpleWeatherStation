@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>London</name>
+    <type>Capital</type>
+    <country>United Kingdom</country>
+    <timezone id="Europe/London" utcoffsetMinutes="60" />
+    <location altitude="25" latitude="51.50853" longitude="-0.12574" geobase="geonames" geobaseid="2643743" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from yr.no, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/United_Kingdom/England/London/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/United_Kingdom/England/London/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/United_Kingdom/England/London/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/United_Kingdom/England/London/" />
+    <link id="hourByHour" url="http://www.yr.no/place/United_Kingdom/England/London/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/United_Kingdom/England/London/long" />
+  </links>
+  <meta>
+    <lastupdate>2015-07-07T04:35:00</lastupdate>
+    <nextupdate>2015-07-07T17:00:00</nextupdate>
+  </meta>
+  <sun rise="2015-07-07T04:52:09" set="2015-07-07T21:18:05" />
+  <forecast>
+    <tabular>
+      <time from="2015-07-07T17:00:00" to="2015-07-07T18:00:00">
+        <!-- Valid from 2015-07-07T17:00:00 to 2015-07-07T18:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="0.5" minvalue="0.1" maxvalue="0.8" />
+        <!-- Valid at 2015-07-07T17:00:00 -->
+        <windDirection deg="256.1" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.1" name="Fresh breeze" />
+        <temperature unit="celsius" value="22" />
+        <pressure unit="hPa" value="1006.7" />
+      </time>
+      <time from="2015-07-07T18:00:00" to="2015-07-07T19:00:00">
+        <!-- Valid from 2015-07-07T18:00:00 to 2015-07-07T19:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-07T18:00:00 -->
+        <windDirection deg="264.1" code="W" name="West" />
+        <windSpeed mps="9.7" name="Fresh breeze" />
+        <temperature unit="celsius" value="21" />
+        <pressure unit="hPa" value="1006.9" />
+      </time>
+      <time from="2015-07-07T19:00:00" to="2015-07-07T20:00:00">
+        <!-- Valid from 2015-07-07T19:00:00 to 2015-07-07T20:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-07T19:00:00 -->
+        <windDirection deg="249.9" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.8" name="Fresh breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1007.3" />
+      </time>
+      <time from="2015-07-07T20:00:00" to="2015-07-07T21:00:00">
+        <!-- Valid from 2015-07-07T20:00:00 to 2015-07-07T21:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-07T20:00:00 -->
+        <windDirection deg="252.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.4" name="Fresh breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2015-07-07T21:00:00" to="2015-07-07T22:00:00">
+        <!-- Valid from 2015-07-07T21:00:00 to 2015-07-07T22:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-07T21:00:00 -->
+        <windDirection deg="249.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.4" name="Fresh breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2015-07-07T22:00:00" to="2015-07-07T23:00:00">
+        <!-- Valid from 2015-07-07T22:00:00 to 2015-07-07T23:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.69" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-07T22:00:00 -->
+        <windDirection deg="233.2" code="SW" name="Southwest" />
+        <windSpeed mps="7.8" name="Moderate breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2015-07-07T23:00:00" to="2015-07-08T00:00:00">
+        <!-- Valid from 2015-07-07T23:00:00 to 2015-07-08T00:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.69" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-07T23:00:00 -->
+        <windDirection deg="238.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1007.8" />
+      </time>
+      <time from="2015-07-08T00:00:00" to="2015-07-08T01:00:00">
+        <!-- Valid from 2015-07-08T00:00:00 to 2015-07-08T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.72" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T00:00:00 -->
+        <windDirection deg="235.4" code="SW" name="Southwest" />
+        <windSpeed mps="7.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2015-07-08T01:00:00" to="2015-07-08T02:00:00">
+        <!-- Valid from 2015-07-08T01:00:00 to 2015-07-08T02:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T01:00:00 -->
+        <windDirection deg="238.3" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.1" />
+      </time>
+      <time from="2015-07-08T02:00:00" to="2015-07-08T03:00:00">
+        <!-- Valid from 2015-07-08T02:00:00 to 2015-07-08T03:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.1" minvalue="0" maxvalue="0.4" />
+        <!-- Valid at 2015-07-08T02:00:00 -->
+        <windDirection deg="238.2" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.9" name="Moderate breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2015-07-08T03:00:00" to="2015-07-08T04:00:00">
+        <!-- Valid from 2015-07-08T03:00:00 to 2015-07-08T04:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="0.5" minvalue="0.3" maxvalue="0.6" />
+        <!-- Valid at 2015-07-08T03:00:00 -->
+        <windDirection deg="239.4" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.1" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1007.8" />
+      </time>
+      <time from="2015-07-08T04:00:00" to="2015-07-08T05:00:00">
+        <!-- Valid from 2015-07-08T04:00:00 to 2015-07-08T05:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.1" />
+        <!-- Valid at 2015-07-08T04:00:00 -->
+        <windDirection deg="234.2" code="SW" name="Southwest" />
+        <windSpeed mps="8.7" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2015-07-08T05:00:00" to="2015-07-08T06:00:00">
+        <!-- Valid from 2015-07-08T05:00:00 to 2015-07-08T06:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T05:00:00 -->
+        <windDirection deg="241.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="9.1" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1007.8" />
+      </time>
+      <time from="2015-07-08T06:00:00" to="2015-07-08T07:00:00">
+        <!-- Valid from 2015-07-08T06:00:00 to 2015-07-08T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.2" />
+        <!-- Valid at 2015-07-08T06:00:00 -->
+        <windDirection deg="245.8" code="WSW" name="West-southwest" />
+        <windSpeed mps="9.3" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2015-07-08T07:00:00" to="2015-07-08T08:00:00">
+        <!-- Valid from 2015-07-08T07:00:00 to 2015-07-08T08:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.2" />
+        <!-- Valid at 2015-07-08T07:00:00 -->
+        <windDirection deg="246.3" code="WSW" name="West-southwest" />
+        <windSpeed mps="9.2" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.1" />
+      </time>
+      <time from="2015-07-08T08:00:00" to="2015-07-08T09:00:00">
+        <!-- Valid from 2015-07-08T08:00:00 to 2015-07-08T09:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T08:00:00 -->
+        <windDirection deg="252.3" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.6" name="Fresh breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1008.7" />
+      </time>
+      <time from="2015-07-08T09:00:00" to="2015-07-08T10:00:00">
+        <!-- Valid from 2015-07-08T09:00:00 to 2015-07-08T10:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-08T09:00:00 -->
+        <windDirection deg="261.4" code="W" name="West" />
+        <windSpeed mps="8.5" name="Fresh breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2015-07-08T10:00:00" to="2015-07-08T11:00:00">
+        <!-- Valid from 2015-07-08T10:00:00 to 2015-07-08T11:00:00 -->
+        <symbol number="9" numberEx="9" name="Rain" var="09" />
+        <precipitation value="0.3" minvalue="0.2" maxvalue="0.4" />
+        <!-- Valid at 2015-07-08T10:00:00 -->
+        <windDirection deg="259.4" code="W" name="West" />
+        <windSpeed mps="6.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1009.6" />
+      </time>
+      <time from="2015-07-08T11:00:00" to="2015-07-08T12:00:00">
+        <!-- Valid from 2015-07-08T11:00:00 to 2015-07-08T12:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.1" minvalue="0.1" maxvalue="0.2" />
+        <!-- Valid at 2015-07-08T11:00:00 -->
+        <windDirection deg="257.8" code="WSW" name="West-southwest" />
+        <windSpeed mps="7.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2015-07-08T12:00:00" to="2015-07-08T13:00:00">
+        <!-- Valid from 2015-07-08T12:00:00 to 2015-07-08T13:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.2" minvalue="0.2" maxvalue="0.3" />
+        <!-- Valid at 2015-07-08T12:00:00 -->
+        <windDirection deg="258.5" code="WSW" name="West-southwest" />
+        <windSpeed mps="8.5" name="Fresh breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1010.7" />
+      </time>
+      <time from="2015-07-08T13:00:00" to="2015-07-08T14:00:00">
+        <!-- Valid from 2015-07-08T13:00:00 to 2015-07-08T14:00:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.2" minvalue="0.1" maxvalue="0.2" />
+        <!-- Valid at 2015-07-08T13:00:00 -->
+        <windDirection deg="264.6" code="W" name="West" />
+        <windSpeed mps="7.5" name="Moderate breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1011.3" />
+      </time>
+      <time from="2015-07-08T14:00:00" to="2015-07-08T15:00:00">
+        <!-- Valid from 2015-07-08T14:00:00 to 2015-07-08T15:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-08T14:00:00 -->
+        <windDirection deg="275.5" code="W" name="West" />
+        <windSpeed mps="7.1" name="Moderate breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1011.7" />
+      </time>
+      <time from="2015-07-08T15:00:00" to="2015-07-08T16:00:00">
+        <!-- Valid from 2015-07-08T15:00:00 to 2015-07-08T16:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-08T15:00:00 -->
+        <windDirection deg="280.7" code="W" name="West" />
+        <windSpeed mps="7.9" name="Moderate breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1012.0" />
+      </time>
+      <time from="2015-07-08T16:00:00" to="2015-07-08T17:00:00">
+        <!-- Valid from 2015-07-08T16:00:00 to 2015-07-08T17:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2015-07-08T16:00:00 -->
+        <windDirection deg="271.6" code="W" name="West" />
+        <windSpeed mps="7.4" name="Moderate breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1012.2" />
+      </time>
+      <time from="2015-07-08T17:00:00" to="2015-07-08T18:00:00">
+        <!-- Valid from 2015-07-08T17:00:00 to 2015-07-08T18:00:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.1" minvalue="0" maxvalue="0.3" />
+        <!-- Valid at 2015-07-08T17:00:00 -->
+        <windDirection deg="283.8" code="WNW" name="West-northwest" />
+        <windSpeed mps="9.0" name="Fresh breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1012.8" />
+      </time>
+      <time from="2015-07-08T18:00:00" to="2015-07-08T19:00:00">
+        <!-- Valid from 2015-07-08T18:00:00 to 2015-07-08T19:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T18:00:00 -->
+        <windDirection deg="293.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="8.5" name="Fresh breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1013.6" />
+      </time>
+      <time from="2015-07-08T19:00:00" to="2015-07-08T20:00:00">
+        <!-- Valid from 2015-07-08T19:00:00 to 2015-07-08T20:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T19:00:00 -->
+        <windDirection deg="301.3" code="WNW" name="West-northwest" />
+        <windSpeed mps="8.0" name="Fresh breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1014.0" />
+      </time>
+      <time from="2015-07-08T20:00:00" to="2015-07-08T21:00:00">
+        <!-- Valid from 2015-07-08T20:00:00 to 2015-07-08T21:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T20:00:00 -->
+        <windDirection deg="303.7" code="WNW" name="West-northwest" />
+        <windSpeed mps="8.4" name="Fresh breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1014.9" />
+      </time>
+      <time from="2015-07-08T21:00:00" to="2015-07-08T22:00:00">
+        <!-- Valid from 2015-07-08T21:00:00 to 2015-07-08T22:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T21:00:00 -->
+        <windDirection deg="311.1" code="NW" name="Northwest" />
+        <windSpeed mps="8.0" name="Fresh breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1016.0" />
+      </time>
+      <time from="2015-07-08T22:00:00" to="2015-07-08T23:00:00">
+        <!-- Valid from 2015-07-08T22:00:00 to 2015-07-08T23:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.72" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T22:00:00 -->
+        <windDirection deg="308.4" code="NW" name="Northwest" />
+        <windSpeed mps="6.3" name="Moderate breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1017.0" />
+      </time>
+      <time from="2015-07-08T23:00:00" to="2015-07-09T00:00:00">
+        <!-- Valid from 2015-07-08T23:00:00 to 2015-07-09T00:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.72" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-08T23:00:00 -->
+        <windDirection deg="306.6" code="NW" name="Northwest" />
+        <windSpeed mps="5.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="16" />
+        <pressure unit="hPa" value="1017.7" />
+      </time>
+      <time from="2015-07-09T00:00:00" to="2015-07-09T01:00:00">
+        <!-- Valid from 2015-07-09T00:00:00 to 2015-07-09T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.75" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T00:00:00 -->
+        <windDirection deg="310.7" code="NW" name="Northwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1018.2" />
+      </time>
+      <time from="2015-07-09T01:00:00" to="2015-07-09T02:00:00">
+        <!-- Valid from 2015-07-09T01:00:00 to 2015-07-09T02:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.75" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T01:00:00 -->
+        <windDirection deg="301.2" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1018.7" />
+      </time>
+      <time from="2015-07-09T02:00:00" to="2015-07-09T03:00:00">
+        <!-- Valid from 2015-07-09T02:00:00 to 2015-07-09T03:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.75" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T02:00:00 -->
+        <windDirection deg="285.3" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1019.1" />
+      </time>
+      <time from="2015-07-09T03:00:00" to="2015-07-09T04:00:00">
+        <!-- Valid from 2015-07-09T03:00:00 to 2015-07-09T04:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.75" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T03:00:00 -->
+        <windDirection deg="262.5" code="W" name="West" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1019.4" />
+      </time>
+      <time from="2015-07-09T04:00:00" to="2015-07-09T05:00:00">
+        <!-- Valid from 2015-07-09T04:00:00 to 2015-07-09T05:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.75" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T04:00:00 -->
+        <windDirection deg="269.7" code="W" name="West" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1019.6" />
+      </time>
+      <time from="2015-07-09T05:00:00" to="2015-07-09T06:00:00">
+        <!-- Valid from 2015-07-09T05:00:00 to 2015-07-09T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T05:00:00 -->
+        <windDirection deg="266.4" code="W" name="West" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1020.1" />
+      </time>
+      <time from="2015-07-09T06:00:00" to="2015-07-09T07:00:00">
+        <!-- Valid from 2015-07-09T06:00:00 to 2015-07-09T07:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T06:00:00 -->
+        <windDirection deg="255.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1020.6" />
+      </time>
+      <time from="2015-07-09T07:00:00" to="2015-07-09T08:00:00">
+        <!-- Valid from 2015-07-09T07:00:00 to 2015-07-09T08:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T07:00:00 -->
+        <windDirection deg="260.2" code="W" name="West" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1021.1" />
+      </time>
+      <time from="2015-07-09T08:00:00" to="2015-07-09T09:00:00">
+        <!-- Valid from 2015-07-09T08:00:00 to 2015-07-09T09:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T08:00:00 -->
+        <windDirection deg="267.7" code="W" name="West" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1021.4" />
+      </time>
+      <time from="2015-07-09T09:00:00" to="2015-07-09T10:00:00">
+        <!-- Valid from 2015-07-09T09:00:00 to 2015-07-09T10:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T09:00:00 -->
+        <windDirection deg="278.7" code="W" name="West" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="15" />
+        <pressure unit="hPa" value="1021.7" />
+      </time>
+      <time from="2015-07-09T10:00:00" to="2015-07-09T11:00:00">
+        <!-- Valid from 2015-07-09T10:00:00 to 2015-07-09T11:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T10:00:00 -->
+        <windDirection deg="281.9" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="17" />
+        <pressure unit="hPa" value="1021.9" />
+      </time>
+      <time from="2015-07-09T11:00:00" to="2015-07-09T12:00:00">
+        <!-- Valid from 2015-07-09T11:00:00 to 2015-07-09T12:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T11:00:00 -->
+        <windDirection deg="288.8" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="18" />
+        <pressure unit="hPa" value="1022.2" />
+      </time>
+      <time from="2015-07-09T12:00:00" to="2015-07-09T13:00:00">
+        <!-- Valid from 2015-07-09T12:00:00 to 2015-07-09T13:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T12:00:00 -->
+        <windDirection deg="289.4" code="WNW" name="West-northwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="19" />
+        <pressure unit="hPa" value="1022.5" />
+      </time>
+      <time from="2015-07-09T13:00:00" to="2015-07-09T14:00:00">
+        <!-- Valid from 2015-07-09T13:00:00 to 2015-07-09T14:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T13:00:00 -->
+        <windDirection deg="284.7" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.2" name="Gentle breeze" />
+        <temperature unit="celsius" value="20" />
+        <pressure unit="hPa" value="1022.6" />
+      </time>
+      <time from="2015-07-09T14:00:00" to="2015-07-09T15:00:00">
+        <!-- Valid from 2015-07-09T14:00:00 to 2015-07-09T15:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T14:00:00 -->
+        <windDirection deg="284.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="21" />
+        <pressure unit="hPa" value="1022.4" />
+      </time>
+      <time from="2015-07-09T15:00:00" to="2015-07-09T16:00:00">
+        <!-- Valid from 2015-07-09T15:00:00 to 2015-07-09T16:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T15:00:00 -->
+        <windDirection deg="284.7" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="22" />
+        <pressure unit="hPa" value="1022.1" />
+      </time>
+      <time from="2015-07-09T16:00:00" to="2015-07-09T17:00:00">
+        <!-- Valid from 2015-07-09T16:00:00 to 2015-07-09T17:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2015-07-09T16:00:00 -->
+        <windDirection deg="286.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="4.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="22" />
+        <pressure unit="hPa" value="1022.1" />
+      </time>
+    </tabular>
+  </forecast>
+</weatherdata>
